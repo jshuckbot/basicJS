@@ -63,17 +63,25 @@ db.sqlite3-journal
 
 # Flask stuff:
 instance/
-.webassets-cache
+.webasse <title>Homework 5</title>
 
 # Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
+У элемента с классом btn необходимо убрать класс "btn-secondaryесли он присутствует у этого элемента, либо добавить, если такого класса
+        у элемента не было.
+<div ass="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Dropdown button
+document.querySelector('.btn').classList.toggle('btn-secondary');
+s="dropdown-item" href="#">Something else here</a>
+</div>
+ Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
+2лемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
+[]()
+  document.querySelector('.menu').classList.remove('dropdown-menu');downMenuButton" замените id на "superDropdown".
+[]()
+бавьте атрибут data-dd со значением 3 элементу у которого существует атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
+[]()
+7. Удал7те атрибут type у элемента с классом "dropdown-toggle". [Решение](lesson_6/script.js)
 
 # Jupyter Notebook
 .ipynb_checkpoints
