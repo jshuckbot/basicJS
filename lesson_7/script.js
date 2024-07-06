@@ -4,7 +4,7 @@
  ***/
 
 document.querySelectorAll('.dropdown-item')
- .forEach(el => el.classList.add('super-dropdown'));
+  .forEach(el => el.classList.add('super-dropdown'));
 
 /*** Задание 2
 У элемента с классом btn необходимо убрать класс "btn-secondary",
@@ -18,14 +18,14 @@ document.querySelector('.btn').classList.toggle('btn-secondary');
  Необходимо удалить класс "dropdown-menu" у элемента, у которого присутствует класс "menu".
  ***/
 
-  document.querySelector('.menu').classList.remove('dropdown-menu');
+document.querySelector('.menu').classList.remove('dropdown-menu');
 
 /*** Задание 4
  Используя метод insertAdjacentHTML добавьте после div'a с классом "dropdown" следующую разметку:
 `<a href="#">link</a>
  ***/
 
-   document.querySelector('div.dropdown').insertAdjacentHTML('afterend', '<a href="#">link</a>');
+document.querySelector('div.dropdown').insertAdjacentHTML('afterend', '<a href="#">link</a>');
 
 /*** Задание 5
   У элемента с id "dropdownMenuButton" замените id на "superDropdown".
@@ -40,7 +40,7 @@ document.getElementById('dropdownMenuButton').id = 'superDropdown';
  используя dataset.
  ***/
 
-  document.querySelector('[aria-labelledby="dropdownMenuButton"]').dataset.dd = "3";
+document.querySelector('[aria-labelledby="dropdownMenuButton"]').dataset.dd = "3";
 
 
 /*** Задание 7
