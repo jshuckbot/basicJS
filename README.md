@@ -202,3 +202,16 @@ content.
 5. У элемента с id "dropdownMenuButton" замените id на "superDropdown".
 6. Добавьте атрибут data-dd со значением 3 элементу у которого существует атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
 7. Удалите атрибут type у элемента с классом "dropdown-toggle". [Решение](lesson_7/script.js)
+
+
+## Урок 13. Работа с медиа
+
+Дан макет сайта https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=4203%3A2&t=q4NMnXTnwyyTSGA6-0
+
+На предыдущем уроке вы сформировали данные из раздела "Товары".
+
+При клике на кнопку add to cart у товара под блоком с акциями появляется раздел Cart items.
+
+В разделе Cart items появляются товары, добавленные в корзину,
+
+При клике на крестик, товар удаляется из из раздела корзины, если удалить все товары, раздел полностью пропадает. [Решение](lesson_13/script.js)
